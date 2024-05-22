@@ -51,6 +51,7 @@ body {
     margin: auto 150px;
     text-align: center;
     text-wrap: wrap;
+    box-shadow: 10px 10px 10px 10px;
 }
 
 .main .head{
