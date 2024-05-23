@@ -10,7 +10,8 @@ body {
     overflow: hidden;
     position: sticky;
     top: 0;
-    
+    max-width:100%;
+    margin: auto;
 }
 
 .nav-list {
@@ -48,16 +49,22 @@ body {
 
 .main{
     border: 1px solid black;
-    margin: auto 150px;
+    margin: auto;
     text-align: center;
     text-wrap: wrap;
-    box-shadow: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 5px 5px;
+    max-width: 1000px;
+    
+    
+}
+    
 }
 
 .main .head{
     text-align: center;
+    max-width: 500px;
     margin: 100px 100px;
-    
+    padding: 20px;
 }
 
 h3{
@@ -68,6 +75,7 @@ h3{
 .body{
     margin:40px 200px;
     text-align: justify;
+    max-width: 600px;
 }
 
 .name{
@@ -81,4 +89,15 @@ h4{
 footer{
     text-align: center;
     text-wrap: wrap;
+    max-width:
+    margin: auto;
+}
+h1{
+    padding: 10px;
+}
+.phead{
+    margin: 50px;
+}
+a{
+    text-decoration: none;
 }
